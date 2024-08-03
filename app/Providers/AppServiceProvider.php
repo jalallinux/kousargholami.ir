@@ -3,7 +3,6 @@
 namespace App\Providers;
 
 use App\Models\User;
-use App\Observers\UserObserver;
 use App\Policies\RolePolicy;
 use App\Policies\UserPolicy;
 use Illuminate\Support\Facades\Gate;
@@ -18,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
     ];
 
     private array $observers = [
-        User::class => UserObserver::class,
+        //
     ];
 
     /**

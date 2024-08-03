@@ -15,6 +15,15 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'meta' => [
+        'author' => env('APP_AUTHOR', 'HiDevs Team'),
+        'description' => 'وبسایت شخصی کوثر غلامی',
+        'keywords' => [
+            'کوثر غلامی',
+            'Kousar Gholami',
+        ],
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -39,7 +48,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
